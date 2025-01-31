@@ -74,7 +74,7 @@ if __name__ == "__main__":
     df = parse_text_file(filename)
     yaml_output = generate_yaml(df)
     
-    with open("modbus_tags.yaml", "w", encoding="utf-8") as yaml_file:
+    with open("Tags.yaml", "w", encoding="utf-8") as yaml_file:
         yaml_file.write(yaml_output)
     
     print("YAML file generated: modbus_tags.yaml")
